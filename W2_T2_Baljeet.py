@@ -24,7 +24,7 @@ def send_OTP():        # Function to send email
     otp = x
     subject = 'One Time Passcode'
     msg = 'Subject: {}\n\nHello, Your OTP for verification Process is {}'.format(subject, otp) 
-    sender = 'baljeet2103.bs@gmail.com'
+    sender = 'baljeet****.bs@gmail.com'
     server.sendmail(sender, Gm_id.get(), msg)
     server.quit()
 
